@@ -1,0 +1,83 @@
+.menu_links {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Calibri', 'Myriad Pro', sans-serif;
+    background-color: rgb(248, 229, 237);
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#headline {
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+}
+
+.baseimage {
+    background-image: url("baseimage.jpg");
+    width: 500px;
+    height: 636px;
+    border: 4px solid white;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 500px;
+}
+
+.flashyimage {
+    background-image: url("flashyimage.jpg");
+    width: 500px;
+    height: 636px;
+}
+
+.squeakyimage {
+    background-image: url("squeakyimage.jpg");
+    width: 500px;
+    height: 636px;
+}
+
+.jumbotron {
+    margin-top: 25px;
+    background-color: rgb(64, 64, 64);
+}
+
+.picture {
+    border: 4px solid white;
+    border-radius: 5px;
+}
+
+#explanation {
+    text-align: left;
+    font-size: 17px;
+}
+
+#listing {
+    text-align: left;
+    font-size: 18px;
+}
+
+.externalsites {
+    list-style-type: none;
+}
+
+.links {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.active {
+    background-color: rgb(190, 235, 238);
+}
